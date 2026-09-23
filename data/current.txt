@@ -1,0 +1,4 @@
+ali,Admin,User,ReportViewer,Auditor
+reza,User,ReportViewer,Manager
+sara,Admin
+mohammad,User,Manager,ReportViewer,Auditor
