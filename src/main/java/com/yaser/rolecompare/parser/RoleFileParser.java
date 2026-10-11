@@ -1,10 +1,13 @@
 package com.yaser.rolecompare.parser;
 
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
+@Component
 public class RoleFileParser {
 
     public Map<String, Set<String>> parse(Path path) throws IOException {

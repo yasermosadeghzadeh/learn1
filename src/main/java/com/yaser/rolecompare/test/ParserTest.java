@@ -1,11 +1,9 @@
 package com.yaser.rolecompare.test;
 
-import com.sun.source.doctree.SerialTree;
 import com.yaser.rolecompare.parser.RoleFileParser;
 import com.yaser.rolecompare.service.RoleComparisonService;
 
 import java.nio.file.Path;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -19,7 +17,7 @@ public class ParserTest {
         System.out.println(baseline);
         System.out.println(current);
 
-        Map<String, Set<String>> result=service.findAddedRoles(baseline,current);
+        Map<String, Set<String>> result = service.findAddedRoles(baseline, current);
         System.out.println(result);
 
 
